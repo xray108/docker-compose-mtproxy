@@ -12,7 +12,6 @@ services:
            - ./config.env
     tg-proxy-watchtower:
         image: v2tec/watchtower
-        container_name: tg-proxy-watchtower
         volumes:
           - /var/run/docker.sock:/var/run/docker.sock
           - /root/.docker/config.json:/config.json
