@@ -23,7 +23,7 @@ or
 
 
 # Clone repository
-`git clone https://github.com/iShift/docker-compose-mtproxy.git`
+`git clone https://github.com/xray108/docker-compose-mtproxy.git`
 
 # Edit config.env
 In that file you can configure:
@@ -33,7 +33,7 @@ In that file you can configure:
 - Workers count
 
 # Change proxy port
-By default, proxy start at 443 port, if you want another - edit **docker-compose.yml**:
+By default, proxy start at 7443 port, if you want another - edit **docker-compose.yml**:
 - "**443**:443" 
 
 # Start proxy
