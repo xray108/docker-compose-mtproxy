@@ -4,7 +4,7 @@ services:
     telegram-proxy:
         image: telegrammessenger/proxy:latest
         ports:
-          - "7443:443" #Proxy port, if you wish to change port - change left side 443 to another. Right side - it is port inside docker container
+          - "8443:443" #Proxy port, if you wish to change port - change left side 443 to another. Right side - it is port inside docker container
         volumes:
            - "proxy-config:/data"
         restart: unless-stopped
